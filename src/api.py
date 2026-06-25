@@ -44,15 +44,3 @@ def get_info_movie_moviename(movie_name):
         return title, country, year, imdb_rating
     
 
-
-
-if __name__ == "__main__":
-    result = get_info_movie_moviename("batman")
-    if result == "Error":
-        print("Error")
-    else:
-        t, c, y, i = result
-        print(t)
-        print(c)
-        print(y)
-        print(i)
